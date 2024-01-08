@@ -1,0 +1,110 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+.gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    color: #fff;
+}
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}
+.wrapper>* {
+    flex: 0 0 auto;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.py-8 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+}
+
+.footer-link-01 li+li {
+    padding-top: 0.8rem;
+}
+
+.footer-title-01 {
+    font-size: 16px;
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+
+.footer-title-01 {
+    font-size: 16px;
+    margin: 0 0 20px;
+    font-weight: 600
+}
+
+.footer-link-01 li+li {
+    padding-top: .8rem
+}
+
+@media (max-width: 991.98px) {
+    .footer-link-01 li+li {
+        padding-top: .6rem
+    }
+}
+
+.footer-link-01 a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top
+}
+
+.footer-link-01 a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 0;
+    height: 1px;
+    transition: ease all .35s;
+    background: currentColor
+}
+
+.footer-link-01 a:hover:after {
+    left: 0;
+    right: auto;
+    width: 100%
+}
